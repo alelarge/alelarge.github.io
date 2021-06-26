@@ -2,7 +2,7 @@
 title: 'Les boucles en JavaScript'
 date: 2021-06-06 00:00:00
 featured_image: '/images/demo/demo-square.jpg'
-excerpt: 'En programmation, nous avons besoin de faire des boucles. Par exemple, pour faire des courses, il faut sortir nos achats de notre chariot, et les mettre sur le tapis roulant. iL faut répéter ces actions en boucle jusqu'à ce qu'il n'y ait plus d'article.'
+excerpt: En programmation, nous avons besoin de faire des boucles. Par exemple, pour faire des courses, il faut sortir nos achats de notre chariot, et les mettre sur le tapis roulant. iL faut répéter ces actions en boucle jusqu'à ce qu'il n'y ait plus d'article...
 ---
 
 En programmation, nous avons besoin de faire des boucles. Par exemple, pour faire des courses, il faut sortir nos achats de notre chariot, et les mettre sur le tapis roulant. iL faut répéter ces actions en boucle jusqu'à ce qu'il n'y ait plus d'article. 

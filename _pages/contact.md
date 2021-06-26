@@ -1,10 +1,10 @@
 ---
 title: Contact
-subtitle: Journal comes with a built-in contact form, that's free and easy to set up.
+subtitle: Restons en contact
 description: A stunning personal blog Jekyll theme with an image-focused design.
 featured_image: /images/demo/demo-portrait.jpg
 ---
 
-{% include contact-form.html %}
+Vous pouvez me contacter via [LinkedIn](https://www.linkedin.com/in/armelle-lelarge-834bb1205/) ou bien en utilisant directement le formulaire ci-dessous :
 
-We've made a contact form that you can use with [Formspree](https://formspree.io/create/jekyllthemes) to handle up to 50 submissions per month for free. You could also easily switch out the end-point to use another contact form service.
+{% include contact-form.html %}

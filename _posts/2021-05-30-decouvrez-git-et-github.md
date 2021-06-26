@@ -1,21 +1,17 @@
 ---
 title: 'Découvrez git et GitHub'
 date: 2021-05-30 00:00:00
-featured_image: '/images/demo/demo-square.jpg'
-excerpt: 
+featured_image: '/images/demo/demo-landscape.jpg'
+excerpt: En suivant un cours d'Openclassrooms, "Débutez avec React", je me suis trompée sur l'exercice et quand je m'en suis rendue compte, trop de choses avaient changées pour revenir en arrière. Je travaillais en local, et je n'avais pas versionné mon code...
 ---
-
-Hello,
-
-Je m'appelle Armelle. Je suis en reconversion professionnelle pour devenir développeuse web. J'ai décidé de commencer à écrire des articles pour pouvoir partager mes fiches et mes expériences.
 
 En suivant un cours d'Openclassrooms, "Débutez avec React", je me suis trompée sur l'exercice et quand je m'en suis rendue compte, trop de choses avaient changées pour revenir en arrière. Je travaillais en local, et je n'avais pas versionné mon code. J'ai donc dû reprendre tout le code écrit lors du cours pour le projet. Si j'avais créé un repository avec git et Github, j'aurais pu facilement revenir en arrière tout en conservant les parties fonctionnelles. Cette erreur m'a permis de me rendre compte que Github est indispensable pour développer sereinement et de façon organisée.
 
 En cas de besoin, on a donc une sauvegarde du projet, ce qui est essentiel dans la vie du développeur. C'est en faisant des erreurs, que l'on apprends.
----
 
-# Quelle est la différence entre Git et GitHub ?
-## Git
+## Quelle est la différence entre Git et GitHub ?
+
+### Git
 
 Git est outil en ligne de commande qui permet de gérer des versions pour le code: à chaque fois que l'on rajoute des versions, du code, on en crée des nouvelles. On l'utilise pour créer un dépôt local et gérer les versions de nos fichiers au fil du temps. Il est généralement plus adapté à un usage individuel.
 
@@ -24,18 +20,20 @@ Lorsqu'on travaille en équipe, nous travaillons sur la même base de code, on p
 Ce qui est pratique, c'est que l'on peut travailler seul ou en équipe, il garde l'historique de nos modifications, permettant de revenir aux versions précédentes.
 
 Un dépôt local est une base de code présente sur la machine d'un utilisateur. Il permet d'enregistrer les versions de notre code et d'y accéder si besoin. Prenons l'exemple d'un repas. Pour la réaliser, on doit suivre les étapes suivantes :
+
 - choisir une recette
 - regarder la liste des ingrédients
 - acheter les ingrédients
 - suivre les instructions de préparation
 - rectifier et assaisonner si besoin
-déguster
+- déguster
 
 Chaque étape représente une version différente de notre projet de repas, qui est stockée au fur et à mesure dans le dépôt local.
 
 "Avec Git, l’historique complet du code n’est pas conservé dans un unique emplacement. Chaque copie du code effectué correspond à un nouveau dépôt dans lequel est conservé l’historique des modifications".
 Git permet donc de sauvegarder notre travail, en cas d'erreur, on peut revenir dessus sans avoir peur de le perdre".
-## GitHub   
+
+### GitHub
 
 GitHub est un service en ligne qui va héberger votre dépôt de code. Ce dépôt est distant puisqu’il n’est pas stocké sur notre machine mais sur des serveurs. Il facilite la collaboration car plusieurs développeurs peuvent travailler en parallèle sur un même projet et accéder aux modifications des autres en temps réel. C'est aussi un allié puissant en gestion de projets, si l'on suit quelques règles, car il facilite la gestion des tâches et le suivi de leur avancement. On peut également y gérer les droits sur nos dépôts, par exemple écriture, lecture seule...
 
@@ -52,17 +50,16 @@ Pour gérer vos dépôts, voici les principales commandes :
 Il y en a encore beaucoup d'autres pour des usages plus ou moins avancés.
 
 ## Les alternatives à GitHub
+
 1. Gitlab
 
 A la différence de GitHub, Gitlab est une plateforme Open Source qui permet également de gérer du code source, et de faciliter la gestion de projet Agile.
 
-[I'm an inline-style link](https://about.gitlab.com/fr-fr/)
+[Gitlab](https://about.gitlab.com/fr-fr/)
 
 2. Bitbucket
-Bitbucket est édité par Atlassian et est surtout adapté aux équipes professionnelles car les fonctionalités gratuites sont limitées. Il propose de base une intégration avec Jira et Trello.
+   Bitbucket est édité par Atlassian et est surtout adapté aux équipes professionnelles car les fonctionalités gratuites sont limitées. Il propose de base une intégration avec Jira et Trello.
 
-
-[I'm an inline-style link](https://bitbucket.org/)
+[Bitbucket](https://bitbucket.org/)
 
 En conclusion, même si vous travaillez sur un projet personnel uniquement en local, versionner son code est une bonne pratique qui peut faire gagner beaucoup de temps !
-
