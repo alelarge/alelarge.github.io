@@ -1,10 +1,10 @@
 basic_settings:
   site_title: Armelle Lelarge
-  site_tagline: Le blog d'une infirmière en reconvertion pour devenir développeuse web. 
+  site_tagline: Le blog d'une infirmière en reconvertion pour devenir développeuse web.
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: 
+  logo_image:
   logo_width: 200
   overlay_opacity: 0.7
 
@@ -12,7 +12,7 @@ menu_settings:
   menu_items:
     - title: 'Articles'
       url: '/'
-    - title: 'Projects'
+    - title: 'Projets'
       url: '/projects/'
     - title: 'À propos'
       url: '/about'
@@ -155,7 +155,7 @@ font_settings:
 
 advanced_settings:
   ajax_loading: true
-  analytics_code: ""
-  custom_styles: ""
-  header_js: ""
-  footer_js: ""
+  analytics_code: ''
+  custom_styles: ''
+  header_js: ''
+  footer_js: ''
