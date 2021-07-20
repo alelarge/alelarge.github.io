@@ -5,11 +5,11 @@ description:
 featured_image: /images/demo/demo-portrait.jpg
 ---
 
-Anciennement infirmière, en 2021 j'ai décidée de profiter de l'arrivée de mon premier enfant pour prendre un congé parental afin de m'épanouir dans mon nouveau rôle et me reconvertir pour devenir développeuse web. Dans mon ancienne vie, j'ai pu acquérir des compétences et des valeurs qui me seront toujours utiles, comme savoir travailler en équipe, prioriser, s'adapter, gérer un équipe et communiquer efficacement. Sur ce dernier point, il est intéressant de noter que chaque matin et soir, nous devions réaliser des transmissions orales et écrites des patients (à propos de leur état de santé, les soins fait ce jour et à faire ainsi que les problèmes rencontrés). On pourrait comparer cela au daily stand up. J'ai également développée un esprit critique et constructif vis-à-vis de mon travail et celui de mes collègues qui me sera utile pour les code reviews. Par exemple, relire les prescriptions et remonter les incohérences au médecin ou valider la qualité des soins d'une collègue.
+Anciennement infirmière, en 2021 j'ai décidé de profiter de l'arrivée de mon premier enfant pour prendre un congé parental afin de m'épanouir dans mon nouveau rôle et me reconvertir pour devenir développeuse web. Dans mon ancienne vie, j'ai pu acquérir des compétences et des valeurs qui me seront toujours utiles, comme savoir travailler en équipe, prioriser, s'adapter, gérer un équipe et communiquer efficacement. Sur ce dernier point, il est intéressant de noter que chaque matin et soir, nous devions réaliser des transmissions orales et écrites des patients (à propos de leur état de santé, les soins fait ce jour et à faire ainsi que les problèmes rencontrés). On pourrait comparer cela au daily stand up. J'ai également développée un esprit critique et constructif vis-à-vis de mon travail et celui de mes collègues qui me sera utile pour les code reviews. Par exemple, relire les prescriptions et remonter les incohérences au médecin ou valider la qualité des soins d'une collègue.
 
 ## Mon parcours de formation
 
-D'abord autodidacte, j'ai commencée comme beaucoup par les cours de Grafikart et d'OpenClassrooms. Après 31 cours sur ce dernier et des centaines d'heures, je m'apprête à débuter leur formation "Développeur Web" en contrat d'aprentissage.
+D'abord autodidacte, j'ai commencé comme beaucoup par les cours de Grafikart et d'OpenClassrooms. Après 31 cours sur ce dernier et des centaines d'heures, je m'apprête à débuter leur formation "Développeur Web" en contrat d'apprentissage.
 
 ## Mes lectures
 
