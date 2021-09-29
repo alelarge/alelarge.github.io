@@ -1,17 +1,17 @@
 ---
-title: 'Recettes de cuisine'
-subtitle: 'React'
+title: "Recettes de cuisine"
+subtitle: "React"
 date: 2021-06-28 00:00:00
-featured_image: '/images/projects/2021-06-28-recettes-project/mes-recettes-home-page.png'
+featured_image: "/images/projects/2021-06-28-recettes-project/mes-recettes-home-page.png"
 ---
 
 ![](/images/projects/2021-06-28-recettes-project/mes-recettes-home-page.png)
 
 Il s'agit d'un projet personnel développé en React.
 
-## Fonctionalités
+## Fonctionnalités
 
-Voici les principales fonctionalitées dévelopées
+Voici les principales fonctionnalités développées :
 
 - Panier et ajout de recettes au panier
 - Affichage d'une liste de recette
