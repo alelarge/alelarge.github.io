@@ -40,7 +40,7 @@ J'ai également versionné mon code avec Git et GitHub. Vous trouverez le reposi
 2. Rassembler les ressources (images, icones, polices de caractères)
 3. Définition de la structure HTML du site afin qu'elle soit propre et cohérente
 4. Intégration des différentes parties : Header, footer
-5. Ecriture du CSS et implémentation des breakpoints
+5. Ecriture du CSS (utilisation de flexbox) et implémentation des breakpoints
 6. Validation au W3C du HTML et du CSS
 
 ## Les maquettes originales

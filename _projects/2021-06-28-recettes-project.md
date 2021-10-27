@@ -7,7 +7,7 @@ featured_image: "/images/projects/2021-06-28-recettes-project/mes-recettes-home-
 
 ![](/images/projects/2021-06-28-recettes-project/mes-recettes-home-page.png)
 
-Il s'agit d'un projet personnel développé en React.
+Il s'agit d'un projet personnel développé en React a partir d'un cours d'OpenClassrooms et librement inspiré de la partie recettes du site [Les Commis](https://lescommis.com/menu/).
 
 ## Fonctionnalités
 
