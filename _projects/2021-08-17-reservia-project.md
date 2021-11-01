@@ -2,10 +2,11 @@
 title: "Reservia"
 subtitle: "HTML/CSS"
 date: 2021-08-17 00:00:00
-featured_image: "/images/projects/2021-08-17-reservia-project/desktop.png"
+featured_image: "/images/projects/2021-08-17-reservia-project/reservia_illu.jpg"
+excerpt: Il s'agit d'un projet d'intégration front-end d'un site web responsive en HTML5 / CSS3.
 ---
 
-[Live Demo]({{ site.url }}/sub_pages/reservia/){:target="\_blank"}
+[Voir une démo du site]({{ site.url }}/sub_pages/reservia/){:target="\_blank"}
 
 Il s'agit d'un projet d'intégration front-end d'un site web responsive en HTML5 / CSS3.  
 Je suis partie de deux maquettes, une représentant le site en navigation desktop et l'autre en version mobile. Libre à moi de réaliser les adaptations nécessaires pour la mise en page des états intermédiaires.
@@ -42,6 +43,10 @@ J'ai également versionné mon code avec Git et GitHub. Vous trouverez le reposi
 4. Intégration des différentes parties : Header, footer
 5. Ecriture du CSS (utilisation de flexbox) et implémentation des breakpoints
 6. Validation au W3C du HTML et du CSS
+
+## Ma rétrospective sur le projet
+
+Ce projet a été complexe pour moi du fait de mon manque d'expérience. J'ai mis du temps à découper la maquette et à définir une structure HTML cohérente. Arrivé à la moitiée de l'intégration, mon CSS n'étant pas correctement organisé j'ai du le reprendre avec l'aide de mon mentor sous peine de devoir repartir de zéro. Cela m'a permis de comprendre l'importance d'avoir un CSS propre et organisé, d'autant plus dans le cadre d'un site responsive. J'ai également pu monter en compétence sur l'usage de Flexbox, crucial pour ce projet.
 
 ## Les maquettes originales
 
