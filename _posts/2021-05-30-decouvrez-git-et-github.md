@@ -1,7 +1,6 @@
 ---
 title: "Découvrez git et GitHub"
 date: 2021-05-30 00:00:00
-featured_image: "/images/demo/demo-landscape.jpg"
 excerpt: En suivant un cours d'Openclassrooms, "Débutez avec React", je me suis trompée sur l'exercice et quand je m'en suis rendue compte, trop de choses avaient changées pour revenir en arrière. Je travaillais en local, et je n'avais pas versionné mon code...
 ---
 
@@ -51,13 +50,13 @@ Il y en a encore beaucoup d'autres pour des usages plus ou moins avancés.
 
 ## Les alternatives à GitHub
 
-1. Gitlab
+### Gitlab
 
 A la différence de GitHub, Gitlab est une plateforme Open Source qui permet également de gérer du code source, et de faciliter la gestion de projet Agile.
 
 [about.gitlab.com](https://about.gitlab.com/fr-fr/)
 
-2. Bitbucket
+### Bitbucket
 
 Edité par Atlassian il est surtout adapté aux équipes professionnelles car les fonctionalités gratuites sont limitées. Il propose de base une intégration avec Jira et Trello.
 
