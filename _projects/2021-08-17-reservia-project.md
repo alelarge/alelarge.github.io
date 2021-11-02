@@ -48,6 +48,19 @@ J'ai également versionné mon code avec Git et GitHub. Vous trouverez le reposi
 
 Ce projet a été complexe pour moi du fait de mon manque d'expérience. J'ai mis du temps à découper la maquette et à définir une structure HTML cohérente. Arrivé à la moitiée de l'intégration, mon CSS n'étant pas correctement organisé j'ai du le reprendre avec l'aide de mon mentor sous peine de devoir repartir de zéro. Cela m'a permis de comprendre l'importance d'avoir un CSS propre et organisé, d'autant plus dans le cadre d'un site responsive. J'ai également pu monter en compétence sur l'usage de Flexbox, crucial pour ce projet.
 
+### Retrospective speedboat
+
+La rétrospective speedboat s'utilise en agile avec la méthole Scrum. Il est organisé par le Scrum Master ou Product Owner. Il permet de se réunir en équipe pour parler du projet selon différents axes:
+
+- un bateau à voile ou à moteur qui vogue sur la mer : il s'agit de l'équipe.
+- des ancres attachées au bateau : ce qui nous freine, ce qui nous a encombrés et compliqués la tâche
+- l'île de rêve : les objectifs atteints par soi même ou l'équipe, qu'avons nous réussis ensemble?
+- le soleil : ce qui s'est bien passé, a été facile
+- le vent : ce qui nous a poussés à avancer, ce qui nous motive, les moteurs
+- l'affreux monstre : les dangers, qu'estce qui aurait pu nous faire échouer? Quelles étaient nos craintes? Quels étaient les pièges et obstacles?
+
+![](/images/projects/2021-08-17-reservia-project/retrospective_reservia.png)
+
 ## Les maquettes originales
 
 ![](/images/projects/2021-08-17-reservia-project/desktop.png)
