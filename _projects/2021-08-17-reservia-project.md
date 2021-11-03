@@ -50,7 +50,7 @@ Ce projet a été complexe pour moi du fait de mon manque d'expérience. J'ai mi
 
 ### Retrospective speedboat
 
-La rétrospective speedboat s'utilise en agile avec la méthole Scrum. Il est organisé par le Scrum Master ou Product Owner. Il permet de se réunir en équipe pour parler du projet selon différents axes:
+La rétrospective speedboat s'utilise en agile avec la méthole Scrum. Il est organisé par le Scrum Master ou Product Owner. Elle permet de se réunir en équipe pour parler du projet selon différents axes:
 
 - un bateau à voile ou à moteur qui vogue sur la mer : il s'agit de l'équipe.
 - des ancres attachées au bateau : ce qui nous freine, ce qui nous a encombrés et compliqués la tâche
