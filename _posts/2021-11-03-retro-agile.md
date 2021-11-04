@@ -41,24 +41,18 @@ Il existe de nombreux outils pour faciliter l'échange lors d'une rétrospective
 
 ![](/images/posts/2021-11-03-retro-agile/speedboat_agile.jpeg)
 
-La rétrospective speedboat s'utilise en agile avec le framework Scrum. Elle permet d'orienter la discusion sur différents axes :
+La rétrospective speedboat s'utilise en agile avec le framework Scrum.
 
-- Le bateau : il s'agit de l'équipe.
-- Des ancres attachées au bateau : ce qui nous freine, ce qui nous a encombrés et compliqués la tâche
-- L'île de rêve : les objectifs atteints par soi même ou l'équipe, qu'avons nous réussis ensemble ?
-- Le soleil : ce qui s'est bien passé, a été facile
-- Le vent : ce qui nous a poussés à avancer, ce qui nous motive, les moteurs
-- L'affreux monstre : les dangers, qu'estce qui aurait pu nous faire échouer? Quelles étaient nos craintes? Quels étaient les pièges et obstacles ?
+L'équipe est représentée par le bateau. Des ancres attachées à celui-ci signifie ce qui nous ralentit, et complique la tâche. Les objectifs et réussites atteints par soi même ou l'équipe doivent être mis sur l'île. Le soleil permet de voir ce qui a été dans le projet, les avancées, les réussites de l'équipe. Le vent montrent les moteurs,les motivations du projet.
+Le monstre comme son nom indique les dangers, les craintes, les obstacles du projet.
 
 ### Keep, Drop, Start (Start, Stop, Continue)
 
 ![](/images/posts/2021-11-03-retro-agile/start-stop-continue.jpeg)
 
-Cet outil est pratique quand on commence à pratiquer une rétrospective agile. Il s'agit d'un tableau à trois colonnes :
+Cet outil est pratique quand on commence à pratiquer une rétrospective agile. Il s'agit d'un tableau à trois colonnes. Keep , Drop , Start s'apparente aussi à Start, Stop , Continue.
 
-- Keep : ce que l'on veut garder.
-- Drop : ce que l'on veut laisser/ ne plus faire : Ex. réunions trop longues.
-- Start : ce qu'il faut essayer lors de la prochaine itération.
+Il est simple à comprendre. Comme son nom l'indique: Keep est ce que l'on souhaite garder dans le projet par exemple des fonctionnalités. Drop c'est ce que l'on ne souhaite éviter comme des réunions longues et inefficaces. Enfin Start, c'est ce qu'il faut changer, essayer lors de la prochaine itération.
 
 ### Les 4Ls
 
@@ -70,13 +64,13 @@ Ce format est très connu et flexible. Il permet de recueillir des informations 
 
 ![](/images/posts/2021-11-03-retro-agile/starfish-retrospective-powerpoint-template.jpeg)
 
-L'étoile de mer s'articule autour de cinq branches :
+L'étoile de mer a cinq branches, elle a différentes fonctionnalités comme arrêter de , continuer à , plus de , commencer à , moins de. Je vais donc les représenter par des exemples.
 
-- Arrêter de : d'inviter des participants qui ne sont pas nécessaires à la réunion, de demandes des tâches urgentes planifiées à l'équipe
-- Continuer à : travailler ensemble, avoir des résultats concrets, s'entraider, échanger
-- Plus de : responsabilité équipe, team building, formations
-- Commencer à : pair programming, code review, coaching, mentoring
-- Moins de : réunions sans objectifs clairs
+- Arrêter de : d'inviter des participants qui ne sont pas nécessaires à la réunion, de demander des tâches urgentes planifiées à l'équipe.
+- Continuer à : travailler ensemble, réaliser les objectifs du projet, s'entraider, échanger, satisfaire des besoins utilisateurs.
+- Plus de : responsabilité équipe, team building, formations.
+- Commencer à : pair programming, code review, coaching, mentoring.
+- Moins de : réunions sans objectifs clairs.
 
 Chaque membre de l'équipe peut échanger sur les branches afin de trouver des axes d'amélioration lors du prochain sprint. On peut observer réellement comment se passe le projet : les axes positifs et négatifs pour avoir une vision globale du projet. Il est rapide à réaliser.
 
@@ -86,23 +80,13 @@ Chaque membre de l'équipe peut échanger sur les branches afin de trouver des a
 
 Cette rétrospective est moins populaire car elle s'utilise quand un problème est identifié par le Scrum Master ou l'équipe. Elle dure environ 1h.
 
-Les étapes de la fleur de lotus :
-
-- Mettre le problème sur la case centrale du tableau. Le Scrum Master s'assure que l'équipe a bien compris le problème, sinon il réexplique celui-ci. 5 minutes environ.
-- Huit colonnes le centre est le problème réeel, les autres cases sont des sous problèmes. L'équipe réfléchit sur les sous problèmes puis doivent trouver un concensus 15min environ.
-- Il est nécessaire de définir les sous problèmes les plus importants 5 min environ.
-- Si possible, l'équipe est divisé en deux groupes avant d'échanger sur les sous problèmes les plus importants : chacun se concentre sur un sous problème. 20 minutes environ.
-- L'équipe/groupe restitues les réponses aux sous problèmes pour mettre de trouver une solution, des axes d'amélioration concernant le problème. 15min environ.
+Concernant la fleur de Lotus, il y a huit colonnes dans le tableau : au centre, nous allons retrouver le problème concerné, expliqué par le Scrum Master. Les autres colonnes concernent les sous problèmes. Le but est que l'équipe échange, trouve un concensus sur les sous problèmes afin de trouver une solution, des axes d'amélioration concernant le problème.
 
 ### Rétrospective Timeline
 
 ![](/images/posts/2021-11-03-retro-agile/retrospective_timeline.png)
 
-Les différentes étapes de cette rétrospective :
-
-- remplir la timeline sur les différents mois à venir selon le projet ex : réunions.
-- remplir la matrice d'apprentissage avec un tableau à quatre colonnes : bons, mauvais, idées, axes d'améliorations.
-- définir le plans d'actions en précisant qui, quoi, comment.
+Au départ, il faut remplir la timeline sur les prochains mois à venir concernant le projet par exemple des réunions importantes... Ensuite, la matrice d'apprentissage permet de visualiser dans un tableau ce qui est bon, mauvais, les idées et axes d'améliorations du projet. Le but est de réaliser le plan d'action en précisant qui, quoi, comment.
 
 ### Rétrospective radar
 
@@ -116,13 +100,19 @@ Il y a encore pleins d'autres outils concernant la rétrospective agile comme :
 
 **La rétrospective des trois petits cochons**
 
-Il y a trois maisons paille (ce qui est très instable au sein de l’équipe à ce jour ), bois (ce qu’ils pensent manquer encore un peu de solidité ), pierre (ce qu’ils pensent être très solide à ce jour ). Il s'agit de debriefer sur les différentes maisons en équipe puis trouver des axes d'amélioration.
+Nous connaissons tous l'histoire des trois petits cochons, c'est le même principe concernant les maisons :
+
+- celle en paille : traduit l'instabilté de l'équipe, ce qui n'est pas solide.
+- celle en bois : pourraient ressembler aux axes d'améliorations.
+- celle en pierre : les réussites de l'équipe, une stabilité.
+
+Il s'agit de debriefer sur les différentes maisons en équipe puis trouver des axes d'amélioration. Il est nécessaire de franchir les différentes maisons pour obtenir celle en pierre, pouvoir travailler en équipe avec bienveillance et effficacement.
 
 **Rétrospective des Pirates**
 
-Permet d'échanger sur les choses que l'équipe aime. Au centre, il y a un trésor, c'est un point de départ. l'équipe réfléchit lors du print ou projet passé ce dont ils sont fiers. Une personne a un trésor, il le présente puis il y a un vote final pour placer le trésor le plus voté sur l'île.
+Permet d'échanger sur les choses que l'équipe aime. Au centre, le trésor est le point de départ. L'équipe réfléchit lors du print ou projet passé ce dont ils ont appréciés.Le trésor ayant le plus de votes ira sur l'île.
 
-D'un côté, nous mettons les obstacles qui pourraient menacer le trésor ex : quantité de travail, bugs. De l'autre, il faut trouver les compétences et soft skills de l'équipe (compétences de collaboration, travail d'équipe, esprit critique, leur adaptabilité, résilience). Enfin, on détermine les obstacles les plus importants avant de trouver des axes d'amélioration.
+D'un côté, nous mettons les obstacles qui pourraient menacer le trésor comme la charge de travail, bugs, des tâches prioritaires. De l'autre, il faut trouver les compétences et soft skills de l'équipe (compétences de collaboration, travail d'équipe, esprit critique, leur adaptabilité, résilience). Enfin, on détermine les obstacles les plus importants avant de trouver des axes d'amélioration.
 
 ## Conclusion
 
