@@ -50,14 +50,10 @@ Ce projet a été complexe pour moi du fait de mon manque d'expérience. J'ai mi
 
 ### Retrospective speedboat
 
-La rétrospective speedboat s'utilise en agile avec la méthole Scrum. Il est organisé par le Scrum Master ou Product Owner. Elle permet de se réunir en équipe pour parler du projet selon différents axes:
+La rétrospective speedboat s'utilise en agile avec le framework Scrum. Il est organisé par le Scrum Master ou Product Owner
 
-- un bateau à voile ou à moteur qui vogue sur la mer : il s'agit de l'équipe.
-- des ancres attachées au bateau : ce qui nous freine, ce qui nous a encombrés et compliqués la tâche
-- l'île de rêve : les objectifs atteints par soi même ou l'équipe, qu'avons nous réussis ensemble?
-- le soleil : ce qui s'est bien passé, a été facile
-- le vent : ce qui nous a poussés à avancer, ce qui nous motive, les moteurs
-- l'affreux monstre : les dangers, qu'estce qui aurait pu nous faire échouer? Quelles étaient nos craintes? Quels étaient les pièges et obstacles?
+L'équipe est représentée par le bateau. Des ancres attachées à celui-ci signifie ce qui nous ralentit, et complique la tâche. Les objectifs et réussites atteints par soi même ou l'équipe doivent être mis sur l'île. Le soleil permet de voir ce qui a été dans le projet, les avancées, les réussites de l'équipe. Le vent montrent les moteurs,les motivations du projet.
+Le monstre comme son nom indique les dangers, les craintes, les obstacles du projet.
 
 ![](/images/projects/2021-08-17-reservia-project/retrospective_reservia.png)
 

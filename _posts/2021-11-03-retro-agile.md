@@ -39,7 +39,7 @@ Il existe de nombreux outils pour faciliter l'échange lors d'une rétrospective
 
 ### Retrospective speedboat
 
-![](/images/posts/2021-11-03-retro-agile/speedboat_agile.jpeg)
+![](/images/projects/2021-08-17-reservia-project/retrospective_reservia.png)
 
 La rétrospective speedboat s'utilise en agile avec le framework Scrum.
 
