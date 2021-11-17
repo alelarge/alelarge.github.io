@@ -48,7 +48,7 @@ Le monstre comme son nom indique les dangers, les craintes, les obstacles du pro
 
 ### Keep, Drop, Start (Start, Stop, Continue)
 
-![](/images/posts/2021-11-03-retro-agile/start-stop-continue.jpeg)
+![](/images/posts/2021-11-03-retro-agile/retrospective-start-stop-continue.png)
 
 Cet outil est pratique quand on commence à pratiquer une rétrospective agile. Il s'agit d'un tableau à trois colonnes. Keep , Drop , Start s'apparente aussi à Start, Stop , Continue.
 
