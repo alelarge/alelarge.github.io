@@ -1,7 +1,7 @@
 ---
 title: "L'accessibilité web"
 date: 2021-11-17 00:00:00
-excerpt: Dans mon acienne vie d'infirmière, j'ai été confrontée à différentes formes de handicap ainsi qu'à des applications métiers tout sauf accessibles. Forte de cette expérience, je conçois tout à fait l'importance de l'accessibilité. En tant que professionnelle du web, je pense qu'il est essentiel de maîtriser ce sujet.
+excerpt: Dans mon ancienne vie d'infirmière, j'ai été confrontée à différentes formes de handicap ainsi qu'à des applications métiers tout sauf accessibles. Forte de cette expérience, je conçois tout à fait l'importance de l'accessibilité. En tant que professionnelle du web, je pense qu'il est essentiel de maîtriser ce sujet.
 ---
 
 ## Qu'est-ce-que l'accessibilité ?
