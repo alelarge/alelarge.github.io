@@ -62,7 +62,7 @@ Pour de meilleurs résultats, il est recommandé d'avoir au préalable validé l
 
 Il s'agit d'une extension pour navigateur disponible sur Chrome et Firefox. Contrairement au W3C Link Checker, cet outil gratuit permet de tester l'accessibilité d'un site web directement sur le navigateur, ce qui est très utile dans le cas d'un site dynamique ou pour tester une page se basant sur des données stockées localement.
 
-Une fois installée, vous pouvez l'ouvrir pour voir s'afficher dans un panneau latéral les informations d'accessibilité comme des problème de structure du document HTML, d'ARIA ainsi que d'autres détails dont l'importance est représentée par un code couleur :
+Une fois installée, vous pouvez l'ouvrir pour voir s'afficher dans un panneau latéral les informations d'accessibilité comme des problèmes de structure du document HTML, d'ARIA ainsi que d'autres détails dont l'importance est représentée par un code couleur :
 
 ![](/images/posts/2021-11-17-les-outils-accessibilite-web/wave_interface.png)
 
