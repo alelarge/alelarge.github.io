@@ -1,7 +1,7 @@
 ---
 title: Contact
 subtitle: Restons en contact
-description: A stunning personal blog Jekyll theme with an image-focused design.
+description: Le blog d'une infirmière en reconvertion pour devenir développeuse web.
 featured_image: /images/demo/demo-portrait.jpg
 ---
 
