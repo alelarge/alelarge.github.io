@@ -1,5 +1,5 @@
 ---
-title: "Découvrez git et GitHub"
+title: 'Découvrez git et GitHub'
 date: 2021-05-30 00:00:00
 excerpt: En suivant un cours d'Openclassrooms, "Débutez avec React", je me suis trompée sur l'exercice et quand je m'en suis rendue compte, trop de choses avaient changées pour revenir en arrière. Je travaillais en local, et je n'avais pas versionné mon code...
 ---

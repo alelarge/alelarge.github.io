@@ -8,6 +8,7 @@ featured_image: /images/demo/demo-landscape.jpg
 <section class="blog single">
 
 	<div class="wrap">
+		<h1>Articles</h1>
 
 		{% for post in paginator.posts %}
 
@@ -26,7 +27,7 @@ featured_image: /images/demo/demo-landscape.jpg
 
 			<div class="blog-post__content">
 				<p>{{ post.excerpt }}</p>
-				<p><a href="{{ post.url | relative_url }}" class="button">Lire la suite</a>
+				<!--<p><a href="{{ post.url | relative_url }}" class="button">Lire la suite</a>-->
 			</div>
 
 		</article>
