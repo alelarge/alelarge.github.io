@@ -121,6 +121,10 @@ img {
   padding: 50px 10px 15px 10px;
 }
 
+.main-header nav .menu li:hover {
+  border-top: 2px solid #0064fa;
+}
+
 .main-header nav .menu li a {
   text-decoration: none;
 }
@@ -355,7 +359,6 @@ img {
 }
 
 .accommodations-item-horizontal {
-  height: 140px;
   border-radius: 20px;
   border: 5px solid #fff;
   box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
@@ -493,6 +496,16 @@ img {
   }
 }
 
+.accommodations .search-results {
+  margin-right: 0px;
+}
+
+@media (min-width: 1270px) {
+  .accommodations .search-results {
+    margin-right: 30px;
+  }
+}
+
 .accommodations h2.search-result__title {
   font-size: 21px;
   font-weight: bold;
@@ -552,11 +565,11 @@ img {
 }
 
 .search-result__item--medium header {
-  height: 180px;
+  height: 155px;
 }
 
 .search-result__item--small header {
-  height: 110px;
+  height: 156px;
 }
 @media (max-width: 780px) {
   .search-result__item--small header,
