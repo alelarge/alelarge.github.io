@@ -329,6 +329,26 @@ img {
   padding-right: 12px;
 }
 
+.search .search__form button i {
+  font-size: 21px;
+}
+
+@media (max-width: 780px) {
+  .search__form button {
+    width: 50px;
+  }
+
+  .search .search__form button span {
+    display: none;
+  }
+}
+
+@media (min-width: 781px) {
+  .search .search__form button i {
+    display: none;
+  }
+}
+
 .accommodations .accommodations-item:hover {
   cursor: pointer;
 }
