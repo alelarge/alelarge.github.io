@@ -354,12 +354,11 @@ img {
   margin-bottom: 5px;
 }
 
-.accommodations-item header {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.accommodations-item img {
   height: 120px;
   display: flex;
+  width: 100%;
+  object-fit: cover;
 }
 
 .accommodations-item-horizontal {
@@ -398,11 +397,11 @@ img {
   padding-bottom: 15px;
 }
 
-.accommodations-item-horizontal header {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.accommodations-item-horizontal img {
   min-width: 125px;
+  height: auto;
+  max-height: 125px;
+  object-fit: cover;
 }
 
 .accommodations .search-results .accommodations-list {
@@ -566,31 +565,30 @@ img {
   }
 }
 
-.search-result__item--large header {
+.search-result__item--large img {
   height: 400px;
 }
 
-.search-result__item--medium header {
+.search-result__item--medium img {
   height: 155px;
 }
 
-.search-result__item--small header {
+.search-result__item--small img {
   height: 156px;
 }
 @media (max-width: 780px) {
-  .search-result__item--small header,
-  .search-result__item--medium header,
-  .search-result__item--large header {
+  .search-result__item--small img,
+  .search-result__item--medium img,
+  .search-result__item--large img {
     height: 125px;
   }
 }
 
 .search-result__item__header {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .search-result__item__bottom {
