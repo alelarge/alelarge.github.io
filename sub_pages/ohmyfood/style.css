@@ -1,0 +1,535 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+body {
+  font-family: Roboto;
+  font-size: 1em;
+  margin: 0px;
+  background-color: #f6f6f6;
+}
+
+main {
+  background-color: #fff;
+}
+
+.btn_cta {
+  background: linear-gradient(#ff79da, #9356dc);
+  text-decoration: none;
+  color: #fff;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  max-width: 80px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.27);
+}
+.btn_cta:hover {
+  background: linear-gradient(rgba(240, 116, 218, 0.8), rgba(175, 95, 220, 0.8));
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+  transition: 0.3s ease-out;
+}
+
+.icon__header {
+  position: absolute;
+  top: 26px;
+  left: 25px;
+  z-index: 1;
+}
+
+.main-header {
+  box-shadow: 0px 0px 5px #bbbbbb;
+  position: relative;
+  background-color: #fff;
+}
+.main-header .logo {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-family: Shrikhand;
+}
+
+.localisation {
+  background-color: #eaeaea;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.localisation input {
+  background-color: transparent;
+  border: none;
+  color: #353535;
+  padding: 5px;
+  font-size: 1em;
+}
+.localisation .icon--localisation {
+  position: relative;
+  left: -15px;
+  color: #353535;
+  font-size: 1.2em;
+}
+
+.menu {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.menu h2 {
+  margin-top: 0px;
+  font-family: Shrikhand;
+}
+.menu p {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  color: #353535;
+}
+.menu .btn {
+  background: linear-gradient(#ff79da, #9356dc);
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.27);
+}
+.menu .btn:hover {
+  background: linear-gradient(rgba(240, 116, 218, 0.8), rgba(175, 95, 220, 0.8));
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+  transition: 0.3s ease-out;
+}
+
+.fonctionnement {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+@media screen and (min-width: 720px) {
+  .fonctionnement .nbr-etapes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+.nbr-etapes {
+  list-style: none;
+  padding-left: 0px;
+}
+.nbr-etapes .etape {
+  background-color: #f6f6f6;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 25px;
+  position: relative;
+  box-shadow: 0px 5px 14px #00000026;
+}
+.nbr-etapes .etape:hover {
+  background: rgba(175, 95, 220, 0.2);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+  transition: 0.3s ease-out;
+}
+.nbr-etapes .etape:hover .etape__icon {
+  color: #9356dc;
+}
+.nbr-etapes .etape .nombre {
+  position: absolute;
+  border-radius: 100%;
+  background-color: #9356dc;
+  color: #fff;
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: -11px;
+  top: 27px;
+}
+.nbr-etapes .etape .i {
+  margin-left: 21px;
+  color: #9356dc;
+}
+
+.restaurants {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  background-color: #f6f6f6;
+}
+@media screen and (min-width: 720px) {
+  .restaurants .cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .restaurants .cards .card {
+    flex: 1 0 48%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .restaurants .cards .card {
+    flex: 1 0 21%;
+  }
+}
+.restaurants .cards .card {
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  padding-bottom: 15px;
+}
+.restaurants .cards .card a {
+  text-decoration: none;
+  color: #000;
+}
+.restaurants .cards .card .like .like__icon {
+  position: absolute;
+  right: 25px;
+  bottom: 35px;
+}
+.restaurants .cards .card .like .like__icon.like__icon--bg {
+  position: absolute;
+  right: 26px;
+  bottom: 36px;
+}
+.restaurants .cards .card section.carte {
+  position: relative;
+}
+.restaurants .cards .card p.intitulé {
+  font-weight: bold;
+}
+.restaurants .cards .card p.price {
+  font-weight: bold;
+}
+.restaurants .cards .card .tag-nouveau {
+  background-color: #99e2d0;
+  color: #008766;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  border-radius: 3px;
+}
+.restaurants .cards .card .photo-restaurant {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.restaurants .cards .card .nom-restaurant {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.restaurants .cards .card .nom-restaurant h3 {
+  margin-bottom: 10px;
+  font-family: Shrikhand;
+}
+.restaurants .cards .card .nom-restaurant p {
+  margin-top: 0px;
+  font-weight: 100;
+}
+.restaurants img {
+  height: 170px;
+  width: 334px;
+}
+
+footer {
+  background-color: #353535;
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer .logo {
+  max-width: 100px;
+  font-family: Shrikhand;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer i {
+  margin-right: 10px;
+}
+footer i.icon-partenaire {
+  font-size: 0.7em;
+}
+
+.like:hover .like__icon.like__icon--bg {
+  opacity: 1;
+  animation: gradient 0.5s ease forwards;
+}
+.like .like__icon {
+  cursor: pointer;
+  font-size: 1.5em;
+  opacity: 1;
+}
+.like .like__icon.like__icon--bg {
+  opacity: 0;
+  font-size: 1.37em;
+  background-color: #ff79da;
+  background-image: linear-gradient(45deg, #fff, #fff, #fff, #9356dc, #ff79da);
+  background-size: 500% 500%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.underline {
+  background-color: #99e2d0;
+  display: block;
+  height: 4px;
+  position: relative;
+  width: 40px;
+}
+
+/**
+  RESTAURANT
+**/
+.img_restaurant {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+}
+@media screen and (min-width: 1300px) {
+  .img_restaurant {
+    height: 400px;
+  }
+}
+
+.carte-restaurant {
+  background-color: #f6f6f6;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  position: relative;
+  top: -30px;
+  padding-bottom: 70px;
+}
+.carte-restaurant header h1 {
+  font-size: 1.4em;
+  font-family: "Shrikhand", cursive;
+}
+.carte-restaurant header .like__icon {
+  position: absolute;
+  right: 25px;
+  top: 70px;
+}
+.carte-restaurant header .like__icon.like__icon--bg {
+  position: absolute;
+  right: 26px;
+  top: 72px;
+}
+@media screen and (min-width: 1300px) {
+  .carte-restaurant .menu-restaurant {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .carte-restaurant .menu-restaurant .carte-item {
+    min-width: 400px;
+  }
+}
+.carte-restaurant .menu-restaurant .toutes_les_entrees div:nth-child(2),
+.carte-restaurant .menu-restaurant .tous_les_plats div:nth-child(2),
+.carte-restaurant .menu-restaurant .tous_les_desserts div:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.carte-restaurant .menu-restaurant .toutes_les_entrees div:nth-child(3),
+.carte-restaurant .menu-restaurant .tous_les_plats div:nth-child(3),
+.carte-restaurant .menu-restaurant .tous_les_desserts div:nth-child(3) {
+  animation-delay: 0.7s;
+}
+.carte-restaurant .menu-restaurant .toutes_les_entrees div:nth-child(4),
+.carte-restaurant .menu-restaurant .tous_les_plats div:nth-child(4),
+.carte-restaurant .menu-restaurant .tous_les_desserts div:nth-child(4) {
+  animation-delay: 1s;
+}
+.carte-restaurant .menu-restaurant .toutes_les_entrees h2 {
+  margin-top: 15px;
+}
+.carte-restaurant .menu-restaurant .carte-item {
+  box-shadow: 0px 5px 14px #00000026;
+  background-color: #fff;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: stretch;
+}
+.carte-restaurant .menu-restaurant .carte-item:hover {
+  cursor: pointer;
+}
+.carte-restaurant .menu-restaurant .carte-item:hover .recette-check {
+  width: 70px;
+}
+.carte-restaurant .menu-restaurant .carte-item:hover .recette-check .fa-check-circle {
+  transform: rotate(0deg);
+}
+.carte-restaurant .menu-restaurant .carte-item .recette-info {
+  padding-left: 10px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+.carte-restaurant .menu-restaurant .carte-item .recette-info h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding-right: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.carte-restaurant .menu-restaurant .carte-item .recette-info .subtitle {
+  margin: 0px;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.carte-restaurant .menu-restaurant .carte-item .recette-info .subtitle .price {
+  font-weight: bold;
+  right: -30px;
+  position: absolute;
+}
+.carte-restaurant .menu-restaurant .carte-item .recette-check {
+  padding-top: 35px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #99e2d0;
+  color: #fff;
+  vertical-align: middle;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 0px;
+  transition: 0.5s ease;
+  text-align: center;
+  animation-delay: 250ms;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.carte-restaurant .menu-restaurant .carte-item .recette-check .fa-check-circle {
+  transform: rotate(360deg);
+  transition: 0.5s ease;
+}
+.carte-restaurant .btn_cta {
+  margin-top: 50px;
+}
+
+.loading-container {
+  position: fixed;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  animation: fadeOut 1s;
+  animation-fill-mode: forwards;
+}
+.loading-container .loading {
+  color: #9356dc;
+  perspective: 1000px;
+  font-size: 84px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+.loading-container .loading span {
+  display: inline-block;
+  margin: 0 -0.05em;
+  transform-origin: 50% 50% -25px;
+  transform-style: preserve-3d;
+  animation: loading 1.6s infinite;
+}
+.loading-container .loading span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.loading-container .loading span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.loading-container .loading span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.loading-container .loading span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.loading-container .loading span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.loading-container .loading span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+@media screen and (max-width: 720px) {
+  .loading-container .loading {
+    display: inline-grid;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+    height: 100%;
+  }
+  100% {
+    opacity: 0;
+    height: 0px;
+  }
+}
+@keyframes loading {
+  0% {
+    transform: rotateX(-360deg);
+  }
+  70% {
+    transform: rotateX(0);
+  }
+}
+/**
+ Boutons
+**/
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.fade-in-up {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  opacity: 0;
+  animation-name: fadeInUp;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

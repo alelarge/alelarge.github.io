@@ -1,0 +1,158 @@
+@import "variables";
+
+/**
+  RESTAURANT
+**/
+
+.img_restaurant {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+
+  @media screen and (min-width: 1300px) {
+    height: 400px;
+  }
+}
+
+.carte-restaurant {
+  background-color: #f6f6f6;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  position: relative;
+  top: -30px;
+  padding-bottom: 70px;
+
+  header {
+    h1 {
+      font-size: 1.4em;
+      font-family: "Shrikhand", cursive;
+    }
+
+    .like__icon {
+      position: absolute;
+      right: 25px;
+      top: 70px;
+
+      &.like__icon--bg {
+        position: absolute;
+        right: 26px;
+        top: 72px;
+      }
+    }
+  }
+
+  .menu-restaurant {
+    @media screen and (min-width: 1300px) {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+
+      .carte-item {
+        min-width: 400px;
+      }
+    }
+
+    .toutes_les_entrees div:nth-child(2),
+    .tous_les_plats div:nth-child(2),
+    .tous_les_desserts div:nth-child(2) {
+      animation-delay: 0.4s;
+    }
+    .toutes_les_entrees div:nth-child(3),
+    .tous_les_plats div:nth-child(3),
+    .tous_les_desserts div:nth-child(3) {
+      animation-delay: 0.7s;
+    }
+    .toutes_les_entrees div:nth-child(4),
+    .tous_les_plats div:nth-child(4),
+    .tous_les_desserts div:nth-child(4) {
+      animation-delay: 1s;
+    }
+
+    .toutes_les_entrees {
+      h2 {
+        margin-top: 15px;
+      }
+    }
+
+    .carte-item {
+      box-shadow: 0px 5px 14px #00000026;
+      background-color: #fff;
+      margin-bottom: 15px;
+      border-radius: 20px;
+      display: flex;
+      align-items: stretch;
+
+      &:hover {
+        cursor: pointer;
+        .recette-check {
+          width: 70px;
+
+          .fa-check-circle {
+            transform: rotate(0deg);
+          }
+        }
+      }
+
+      .recette-info {
+        padding-left: 10px;
+        padding-right: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+
+        h3 {
+          margin-top: 0px;
+          margin-bottom: 10px;
+          font-weight: bold;
+          padding-right: 10px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+        }
+
+        .subtitle {
+          margin: 0px;
+          position: relative;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+
+          .price {
+            font-weight: bold;
+            right: -30px;
+            position: absolute;
+          }
+        }
+      }
+
+      .recette-check {
+        padding-top: 35px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: #99e2d0;
+        color: #fff;
+        vertical-align: middle;
+        flex-grow: 0;
+        flex-shrink: 0;
+        width: 0px;
+        transition: 0.5s ease;
+        text-align: center;
+        animation-delay: 250ms;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        .fa-check-circle {
+          transform: rotate(360deg);
+          transition: 0.5s ease;
+        }
+      }
+    }
+  }
+
+  .btn_cta {
+    margin-top: 50px;
+  }
+}
