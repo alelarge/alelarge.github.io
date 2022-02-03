@@ -36,6 +36,10 @@ main {
   top: 26px;
   left: 25px;
   z-index: 1;
+
+  i {
+    color: #000;
+  }
 }
 
 .main-header {
@@ -83,7 +87,7 @@ main {
 
   h2 {
     margin-top: 0px;
-    font-family: Shrikhand;
+    font-family: Roboto;
   }
 
   p {
@@ -254,7 +258,7 @@ main {
 
         h3 {
           margin-bottom: 10px;
-          font-family: Shrikhand;
+          font-family: Roboto;
         }
 
         p {
@@ -301,7 +305,9 @@ footer {
     }
   }
 }
-
+/* 
+Animations coeur 
+*/
 .like {
   &:hover {
     .like__icon {
@@ -311,13 +317,10 @@ footer {
       }
     }
   }
-
   .like__icon {
     cursor: pointer;
     font-size: 1.5em;
-
     opacity: 1;
-
     &.like__icon--bg {
       opacity: 0;
       font-size: 1.37em;
@@ -330,7 +333,7 @@ footer {
         $primary-color,
         $secondary-color
       );
-      background-size: 500% 500%;
+      background-size: 350% 100%;
       -webkit-background-clip: text;
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;

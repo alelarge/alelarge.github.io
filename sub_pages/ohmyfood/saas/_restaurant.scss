@@ -28,6 +28,7 @@
   header {
     h1 {
       font-size: 1.4em;
+      font-weight: 100;
       font-family: "Shrikhand", cursive;
     }
 
@@ -53,6 +54,11 @@
       .carte-item {
         min-width: 400px;
       }
+    }
+
+    h2 {
+      text-transform: uppercase;
+      font-weight: 100;
     }
 
     .toutes_les_entrees div:nth-child(2),
@@ -87,6 +93,9 @@
 
       &:hover {
         cursor: pointer;
+        .recette-info {
+          width: calc(100% - 80px);
+        }
         .recette-check {
           width: 70px;
 
@@ -102,6 +111,7 @@
         padding-top: 15px;
         padding-bottom: 15px;
         width: 100%;
+        transition: width ease 0.5s;
 
         h3 {
           margin-top: 0px;
@@ -135,14 +145,16 @@
         background: #99e2d0;
         color: #fff;
         vertical-align: middle;
-        flex-grow: 0;
-        flex-shrink: 0;
         width: 0px;
         transition: 0.5s ease;
         text-align: center;
         animation-delay: 250ms;
         overflow: hidden;
-        text-overflow: ellipsis;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0px;
+        height: 75px;
 
         .fa-check-circle {
           transform: rotate(360deg);

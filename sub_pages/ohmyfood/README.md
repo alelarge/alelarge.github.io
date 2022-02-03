@@ -19,9 +19,9 @@ CSS:
 
 - display: inline-block; s'affiche en ligne. pas de saut après la ligne
 
-- transform-origin permet de modifier l'origine du repère pour les opérations de transformation d'un élément.
-
 - display: inline-grid sur un élément, tous les enfants directs de cet élément deviennet des éléments de grille.
+
+- transform-origin permet de modifier l'origine du repère pour les opérations de transformation d'un élément.
 
 - animation-fill-mode : both entraine l'animation dans les deux directions
 
