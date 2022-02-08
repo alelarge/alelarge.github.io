@@ -59,22 +59,14 @@
     h2 {
       text-transform: uppercase;
       font-weight: 100;
-    }
 
-    .toutes_les_entrees div:nth-child(2),
-    .tous_les_plats div:nth-child(2),
-    .tous_les_desserts div:nth-child(2) {
-      animation-delay: 0.4s;
-    }
-    .toutes_les_entrees div:nth-child(3),
-    .tous_les_plats div:nth-child(3),
-    .tous_les_desserts div:nth-child(3) {
-      animation-delay: 0.7s;
-    }
-    .toutes_les_entrees div:nth-child(4),
-    .tous_les_plats div:nth-child(4),
-    .tous_les_desserts div:nth-child(4) {
-      animation-delay: 1s;
+      .underline {
+        background-color: $tertiary-color;
+        display: block;
+        height: 4px;
+        position: relative;
+        width: 40px;
+      }
     }
 
     .toutes_les_entrees {
@@ -93,16 +85,6 @@
 
       &:hover {
         cursor: pointer;
-        .recette-info {
-          width: calc(100% - 80px);
-        }
-        .recette-check {
-          width: 70px;
-
-          .fa-check-circle {
-            transform: rotate(0deg);
-          }
-        }
       }
 
       .recette-info {
@@ -111,13 +93,14 @@
         padding-top: 15px;
         padding-bottom: 15px;
         width: 100%;
-        transition: width ease 0.5s;
 
         h3 {
           margin-top: 0px;
           margin-bottom: 10px;
           font-weight: bold;
           padding-right: 10px;
+
+          // Affichage des ... si intitulé trop long
           text-overflow: ellipsis;
           overflow: hidden;
           white-space: nowrap;
@@ -126,6 +109,8 @@
         .subtitle {
           margin: 0px;
           position: relative;
+
+          // Affichage des ... si intitulé trop long
           text-overflow: ellipsis;
           overflow: hidden;
           white-space: nowrap;
@@ -146,25 +131,21 @@
         color: #fff;
         vertical-align: middle;
         width: 0px;
-        transition: 0.5s ease;
         text-align: center;
-        animation-delay: 250ms;
         overflow: hidden;
         position: absolute;
         top: 0;
         right: 0;
         width: 0px;
         height: 75px;
-
-        .fa-check-circle {
-          transform: rotate(360deg);
-          transition: 0.5s ease;
-        }
       }
     }
   }
 
-  .btn_cta {
+  .btn {
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
   }
 }

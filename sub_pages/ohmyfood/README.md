@@ -19,7 +19,7 @@ CSS:
 
 - display: inline-block; s'affiche en ligne. pas de saut après la ligne
 
-- display: inline-grid sur un élément, tous les enfants directs de cet élément deviennet des éléments de grille.
+- display: inline-grid sur un élément, tous les enfants directs de cet élément deviennent des éléments de grille.
 
 - transform-origin permet de modifier l'origine du repère pour les opérations de transformation d'un élément.
 

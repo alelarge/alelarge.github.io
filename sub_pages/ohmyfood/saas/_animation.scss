@@ -1,30 +1,43 @@
 @import "variables";
 
+/**
+ * Animaition loader pleine page
+ */
 .loading-container {
   position: fixed;
   background: #fff;
   height: 100%;
   width: 100%;
-  z-index: 1;
+
+  z-index: 1; // définit le « z-order » d'un élément positionné et de ses éléments
+  // enfants ou de ses éléments flexibles. Lorsque des éléments se
+  // chevauchent, le z-order détermine l'ordre des différentes couches
+  // que formeront les éléments. Généralement, un élément couvrira un
+  // autre élément si sa valeur de z-index est supérieure à celle du deuxième élément.
   top: 0;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  animation: fadeOut 1s;
-  animation-fill-mode: forwards;
+  align-items: center; // contrôle l'alignement sur l'axe secondaire (ici centré à la verticale)
+  justify-content: center; // Éléments centré sur l'axe horizontal
+  display: flex; // définit l'affichage en boîtes flexibles
+  animation: fadeOut 1s; // applique l'animation définit dans le keyframe fadeout avec une durée d'une seconde
+  animation-fill-mode: forwards; // indique la façon dont une animation CSS doit appliquer
+  // les styles à sa cible avant et après son exécution. Spécifie un style pour l'élément lorsque
+  // l'animation n'est pas en cours de lecture (avant qu'elle ne démarre, après qu'elle se termine,
+  // ou les deux)
+
   .loading {
     color: $primary-color;
-    perspective: 1000px;
+    perspective: 1000px; //position de l'élément sur l'axe z(profondeur) par rapport à l'observateur
     font-size: 84px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 800;
+    font-weight: 800; //graisse
     text-align: center;
     span {
-      display: inline-block;
+      display: inline-block; // s'affiche en ligne. pas de saut après la ligne
       margin: 0 -0.05em;
-      transform-origin: 50% 50% -25px;
+      transform-origin: 50% 50% -25px; //modifier l'origine du repère partent du centre de l’élément agrandit vers l'extérieur
       transform-style: preserve-3d;
       animation: loading 1.6s infinite;
+      // Compte jusqu'à 6 et pour chaque iteration, elle applique un délai à l'animation à chaque enfant (nth-child)
       @for $i from 1 through 6 {
         &:nth-child(#{$i + 1}) {
           animation-delay: #{$i * 0.1}s;
@@ -34,10 +47,12 @@
 
     @media screen and (max-width: 720px) {
       display: inline-grid;
+      // sur un élément, tous les enfants directs de cet élément deviennent des éléments de grille.
     }
   }
 }
 
+// Définition des étapes qui composent la séquence de l'animation de disparition progressive (fondu)
 @keyframes fadeOut {
   0% {
     opacity: 1;
@@ -52,6 +67,7 @@
   }
 }
 
+// Définition des étapes qui composent la séquence de l'animation de rotation des lettres du loader
 @keyframes loading {
   0% {
     transform: rotateX(-360deg);
@@ -62,8 +78,8 @@
 }
 
 /**
- Boutons
-**/
+ * Animation tuile apparition progression
+ */
 @keyframes fadeInUp {
   from {
     transform: translate3d(0, 40px, 0);
@@ -77,10 +93,46 @@
 
 .fade-in-up {
   animation-duration: 1s;
-
   animation-fill-mode: both;
   opacity: 0;
   animation-name: fadeInUp;
+}
+
+/* 
+ * Animations remplissage progressif boutton j'aime
+ */
+.like {
+  &:hover {
+    .like__icon {
+      &.like__icon--bg {
+        opacity: 1;
+        animation: gradient 0.5s ease forwards;
+      }
+    }
+  }
+  .like__icon {
+    cursor: pointer;
+    font-size: 1.5em;
+    opacity: 1;
+    &.like__icon--bg {
+      opacity: 0;
+      font-size: 1.37em;
+      background-color: $secondary-color;
+      background-image: linear-gradient(
+        45deg,
+        #fff,
+        #fff,
+        #fff,
+        $primary-color,
+        $secondary-color
+      );
+      background-size: 350% 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+    }
+  }
 }
 
 @keyframes gradient {
@@ -89,5 +141,80 @@
   }
   100% {
     background-position: 100% 50%;
+  }
+}
+
+/**
+ * Animations sur la page restaurant
+ */
+.menu-restaurant {
+  // # Décallage temporel de l'affichage progressif
+  // On applique un délais à partir du second enfant de chaque
+  // section (Entrées, Plat, Desserts) et on ajoute 3ms de délais
+  // à chaque enfant
+  .toutes_les_entrees div:nth-child(2),
+  .tous_les_plats div:nth-child(2),
+  .tous_les_desserts div:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  .toutes_les_entrees div:nth-child(3),
+  .tous_les_plats div:nth-child(3),
+  .tous_les_desserts div:nth-child(3) {
+    animation-delay: 0.7s;
+  }
+  .toutes_les_entrees div:nth-child(4),
+  .tous_les_plats div:nth-child(4),
+  .tous_les_desserts div:nth-child(4) {
+    animation-delay: 1s;
+  }
+  .toutes_les_entrees div:nth-child(5),
+  .tous_les_plats div:nth-child(5),
+  .tous_les_desserts div:nth-child(5) {
+    animation-delay: 0.4s;
+  }
+
+  /**
+   * Animation apparition coulissante du bouton d'ajout de plat
+   */
+  // Au survol d'une recette du menu, on réduit la taille de la partie intitulé
+  // et on augmente d'autant celle de la coche
+  .carte-item {
+    &:hover {
+      .recette-info {
+        width: calc(100% - 80px);
+      }
+      .recette-check {
+        width: 70px;
+
+        .fa-check-circle {
+          transform: rotate(0deg);
+        }
+      }
+    }
+
+    .recette-info {
+      transition: width ease 0.5s;
+    }
+
+    .recette-check {
+      transition: 0.5s ease;
+      animation-delay: 250ms;
+
+      .fa-check-circle {
+        transform: rotate(360deg); // Rotation de la coche
+        transition: 0.5s ease;
+      }
+    }
+  }
+}
+
+/**
+ * Animation du bouton au survol
+ */
+.btn {
+  &:hover {
+    background: linear-gradient(rgb(240 116 218 / 80%), rgb(175 95 220 / 80%));
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 60%);
+    transition: 0.3s ease-out;
   }
 }

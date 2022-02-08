@@ -9,28 +9,6 @@ main {
   background-color: #fff;
 }
 
-.btn_cta {
-  background: linear-gradient($secondary-color, $primary-color);
-  text-decoration: none;
-  color: #fff;
-  padding-right: 40px;
-  padding-left: 40px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border-radius: 40px;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  max-width: 80px;
-  box-shadow: 0px 4px 20px rgb(0 0 0 / 27%);
-
-  &:hover {
-    background: linear-gradient(rgb(240 116 218 / 80%), rgb(175 95 220 / 80%));
-    box-shadow: 0px 4px 20px rgb(0 0 0 / 60%);
-    transition: 0.3s ease-out;
-  }
-}
-
 .icon__header {
   position: absolute;
   top: 26px;
@@ -40,6 +18,16 @@ main {
   i {
     color: #000;
   }
+}
+
+.btn {
+  background: linear-gradient($secondary-color, $primary-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  box-shadow: 0px 4px 20px rgb(0 0 0 / 27%);
 }
 
 .main-header {
@@ -94,21 +82,6 @@ main {
     margin-top: 25px;
     margin-bottom: 30px;
     color: #353535;
-  }
-
-  .btn {
-    background: linear-gradient($secondary-color, $primary-color);
-    color: #fff;
-    text-decoration: none;
-    padding: 20px;
-    border-radius: 50px;
-    display: inline-block;
-    box-shadow: 0px 4px 20px rgb(0 0 0 / 27%);
-    &:hover {
-      background: linear-gradient($light-secondary-color, $light-primary-color);
-      box-shadow: 0px 4px 20px rgb(0 0 0 / 60%);
-      transition: 0.3s ease-out;
-    }
   }
 }
 
@@ -304,48 +277,4 @@ footer {
       font-size: 0.7em;
     }
   }
-}
-/* 
-Animations coeur 
-*/
-.like {
-  &:hover {
-    .like__icon {
-      &.like__icon--bg {
-        opacity: 1;
-        animation: gradient 0.5s ease forwards;
-      }
-    }
-  }
-  .like__icon {
-    cursor: pointer;
-    font-size: 1.5em;
-    opacity: 1;
-    &.like__icon--bg {
-      opacity: 0;
-      font-size: 1.37em;
-      background-color: $secondary-color;
-      background-image: linear-gradient(
-        45deg,
-        #fff,
-        #fff,
-        #fff,
-        $primary-color,
-        $secondary-color
-      );
-      background-size: 350% 100%;
-      -webkit-background-clip: text;
-      -moz-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-text-fill-color: transparent;
-    }
-  }
-}
-
-.underline {
-  background-color: $tertiary-color;
-  display: block;
-  height: 4px;
-  position: relative;
-  width: 40px;
 }

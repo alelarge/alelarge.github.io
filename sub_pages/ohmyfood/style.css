@@ -11,27 +11,6 @@ main {
   background-color: #fff;
 }
 
-.btn_cta {
-  background: linear-gradient(#ff79da, #9356dc);
-  text-decoration: none;
-  color: #fff;
-  padding-right: 40px;
-  padding-left: 40px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border-radius: 40px;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  max-width: 80px;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.27);
-}
-.btn_cta:hover {
-  background: linear-gradient(rgba(240, 116, 218, 0.8), rgba(175, 95, 220, 0.8));
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
-  transition: 0.3s ease-out;
-}
-
 .icon__header {
   position: absolute;
   top: 26px;
@@ -40,6 +19,16 @@ main {
 }
 .icon__header i {
   color: #000;
+}
+
+.btn {
+  background: linear-gradient(#ff79da, #9356dc);
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.27);
 }
 
 .main-header {
@@ -90,20 +79,6 @@ main {
   margin-top: 25px;
   margin-bottom: 30px;
   color: #353535;
-}
-.menu .btn {
-  background: linear-gradient(#ff79da, #9356dc);
-  color: #fff;
-  text-decoration: none;
-  padding: 20px;
-  border-radius: 50px;
-  display: inline-block;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.27);
-}
-.menu .btn:hover {
-  background: linear-gradient(rgba(240, 116, 218, 0.8), rgba(175, 95, 220, 0.8));
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
-  transition: 0.3s ease-out;
 }
 
 .fonctionnement {
@@ -269,38 +244,6 @@ footer i.icon-partenaire {
   font-size: 0.7em;
 }
 
-/* 
-Animations coeur 
-*/
-.like:hover .like__icon.like__icon--bg {
-  opacity: 1;
-  animation: gradient 0.5s ease forwards;
-}
-.like .like__icon {
-  cursor: pointer;
-  font-size: 1.5em;
-  opacity: 1;
-}
-.like .like__icon.like__icon--bg {
-  opacity: 0;
-  font-size: 1.37em;
-  background-color: #ff79da;
-  background-image: linear-gradient(45deg, #fff, #fff, #fff, #9356dc, #ff79da);
-  background-size: 350% 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-.underline {
-  background-color: #99e2d0;
-  display: block;
-  height: 4px;
-  position: relative;
-  width: 40px;
-}
-
 /**
   RESTAURANT
 **/
@@ -355,20 +298,12 @@ Animations coeur
   text-transform: uppercase;
   font-weight: 100;
 }
-.carte-restaurant .menu-restaurant .toutes_les_entrees div:nth-child(2),
-.carte-restaurant .menu-restaurant .tous_les_plats div:nth-child(2),
-.carte-restaurant .menu-restaurant .tous_les_desserts div:nth-child(2) {
-  animation-delay: 0.4s;
-}
-.carte-restaurant .menu-restaurant .toutes_les_entrees div:nth-child(3),
-.carte-restaurant .menu-restaurant .tous_les_plats div:nth-child(3),
-.carte-restaurant .menu-restaurant .tous_les_desserts div:nth-child(3) {
-  animation-delay: 0.7s;
-}
-.carte-restaurant .menu-restaurant .toutes_les_entrees div:nth-child(4),
-.carte-restaurant .menu-restaurant .tous_les_plats div:nth-child(4),
-.carte-restaurant .menu-restaurant .tous_les_desserts div:nth-child(4) {
-  animation-delay: 1s;
+.carte-restaurant .menu-restaurant h2 .underline {
+  background-color: #99e2d0;
+  display: block;
+  height: 4px;
+  position: relative;
+  width: 40px;
 }
 .carte-restaurant .menu-restaurant .toutes_les_entrees h2 {
   margin-top: 15px;
@@ -384,22 +319,12 @@ Animations coeur
 .carte-restaurant .menu-restaurant .carte-item:hover {
   cursor: pointer;
 }
-.carte-restaurant .menu-restaurant .carte-item:hover .recette-info {
-  width: calc(100% - 80px);
-}
-.carte-restaurant .menu-restaurant .carte-item:hover .recette-check {
-  width: 70px;
-}
-.carte-restaurant .menu-restaurant .carte-item:hover .recette-check .fa-check-circle {
-  transform: rotate(0deg);
-}
 .carte-restaurant .menu-restaurant .carte-item .recette-info {
   padding-left: 10px;
   padding-right: 40px;
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100%;
-  transition: width ease 0.5s;
 }
 .carte-restaurant .menu-restaurant .carte-item .recette-info h3 {
   margin-top: 0px;
@@ -430,9 +355,7 @@ Animations coeur
   color: #fff;
   vertical-align: middle;
   width: 0px;
-  transition: 0.5s ease;
   text-align: center;
-  animation-delay: 250ms;
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -440,14 +363,16 @@ Animations coeur
   width: 0px;
   height: 75px;
 }
-.carte-restaurant .menu-restaurant .carte-item .recette-check .fa-check-circle {
-  transform: rotate(360deg);
-  transition: 0.5s ease;
-}
-.carte-restaurant .btn_cta {
+.carte-restaurant .btn {
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
 }
 
+/**
+ * Animaition loader pleine page
+ */
 .loading-container {
   position: fixed;
   background: #fff;
@@ -522,8 +447,8 @@ Animations coeur
   }
 }
 /**
- Boutons
-**/
+ * Animation tuile apparition progression
+ */
 @keyframes fadeInUp {
   from {
     transform: translate3d(0, 40px, 0);
@@ -540,6 +465,30 @@ Animations coeur
   animation-name: fadeInUp;
 }
 
+/* 
+ * Animations remplissage progressif boutton j'aime
+ */
+.like:hover .like__icon.like__icon--bg {
+  opacity: 1;
+  animation: gradient 0.5s ease forwards;
+}
+.like .like__icon {
+  cursor: pointer;
+  font-size: 1.5em;
+  opacity: 1;
+}
+.like .like__icon.like__icon--bg {
+  opacity: 0;
+  font-size: 1.37em;
+  background-color: #ff79da;
+  background-image: linear-gradient(45deg, #fff, #fff, #fff, #9356dc, #ff79da);
+  background-size: 350% 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -547,6 +496,63 @@ Animations coeur
   100% {
     background-position: 100% 50%;
   }
+}
+/**
+ * Animations sur la page restaurant
+ */
+.menu-restaurant {
+  /**
+   * Animation apparition coulissante du bouton d'ajout de plat
+   */
+}
+.menu-restaurant .toutes_les_entrees div:nth-child(2),
+.menu-restaurant .tous_les_plats div:nth-child(2),
+.menu-restaurant .tous_les_desserts div:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.menu-restaurant .toutes_les_entrees div:nth-child(3),
+.menu-restaurant .tous_les_plats div:nth-child(3),
+.menu-restaurant .tous_les_desserts div:nth-child(3) {
+  animation-delay: 0.7s;
+}
+.menu-restaurant .toutes_les_entrees div:nth-child(4),
+.menu-restaurant .tous_les_plats div:nth-child(4),
+.menu-restaurant .tous_les_desserts div:nth-child(4) {
+  animation-delay: 1s;
+}
+.menu-restaurant .toutes_les_entrees div:nth-child(5),
+.menu-restaurant .tous_les_plats div:nth-child(5),
+.menu-restaurant .tous_les_desserts div:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.menu-restaurant .carte-item:hover .recette-info {
+  width: calc(100% - 80px);
+}
+.menu-restaurant .carte-item:hover .recette-check {
+  width: 70px;
+}
+.menu-restaurant .carte-item:hover .recette-check .fa-check-circle {
+  transform: rotate(0deg);
+}
+.menu-restaurant .carte-item .recette-info {
+  transition: width ease 0.5s;
+}
+.menu-restaurant .carte-item .recette-check {
+  transition: 0.5s ease;
+  animation-delay: 250ms;
+}
+.menu-restaurant .carte-item .recette-check .fa-check-circle {
+  transform: rotate(360deg);
+  transition: 0.5s ease;
+}
+
+/**
+ * Animation du bouton au survol
+ */
+.btn:hover {
+  background: linear-gradient(rgba(240, 116, 218, 0.8), rgba(175, 95, 220, 0.8));
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+  transition: 0.3s ease-out;
 }
 
 /*# sourceMappingURL=style.css.map */
