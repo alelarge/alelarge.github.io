@@ -315,40 +315,37 @@ footer i.icon-partenaire {
   border-radius: 20px;
   display: flex;
   align-items: stretch;
+  overflow: hidden;
 }
 .carte-restaurant .menu-restaurant .carte-item:hover {
   cursor: pointer;
 }
 .carte-restaurant .menu-restaurant .carte-item .recette-info {
-  padding-left: 10px;
-  padding-right: 40px;
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100%;
 }
 .carte-restaurant .menu-restaurant .carte-item .recette-info h3 {
+  padding-left: 10px;
+  padding-right: 10px;
   margin-top: 0px;
   margin-bottom: 10px;
   font-weight: bold;
   padding-right: 10px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
 }
 .carte-restaurant .menu-restaurant .carte-item .recette-info .subtitle {
   margin: 0px;
   position: relative;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .carte-restaurant .menu-restaurant .carte-item .recette-info .subtitle .price {
   font-weight: bold;
-  right: -30px;
-  position: absolute;
 }
 .carte-restaurant .menu-restaurant .carte-item .recette-check {
-  padding-top: 35px;
+  padding-top: 34px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   background: #99e2d0;
@@ -361,7 +358,7 @@ footer i.icon-partenaire {
   top: 0;
   right: 0;
   width: 0px;
-  height: 75px;
+  height: 47px;
 }
 .carte-restaurant .btn {
   margin-top: 50px;
@@ -371,7 +368,7 @@ footer i.icon-partenaire {
 }
 
 /**
- * Animaition loader pleine page
+ * Animation loader pleine page
  */
 .loading-container {
   position: fixed;
@@ -484,6 +481,7 @@ footer i.icon-partenaire {
   background-image: linear-gradient(45deg, #fff, #fff, #fff, #9356dc, #ff79da);
   background-size: 350% 100%;
   -webkit-background-clip: text;
+  background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
@@ -536,6 +534,13 @@ footer i.icon-partenaire {
 }
 .menu-restaurant .carte-item .recette-info {
   transition: width ease 0.5s;
+}
+.menu-restaurant .carte-item .recette-info .subtitle,
+.menu-restaurant .carte-item .recette-info .subtitle span:nth-child(1),
+.menu-restaurant .carte-item .recette-info h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .menu-restaurant .carte-item .recette-check {
   transition: 0.5s ease;

@@ -82,49 +82,42 @@
       border-radius: 20px;
       display: flex;
       align-items: stretch;
+      overflow: hidden;
 
       &:hover {
         cursor: pointer;
       }
 
       .recette-info {
-        padding-left: 10px;
-        padding-right: 40px;
         padding-top: 15px;
         padding-bottom: 15px;
         width: 100%;
 
         h3 {
+          padding-left: 10px;
+          padding-right: 10px;
           margin-top: 0px;
           margin-bottom: 10px;
           font-weight: bold;
           padding-right: 10px;
-
-          // Affichage des ... si intitulé trop long
-          text-overflow: ellipsis;
-          overflow: hidden;
-          white-space: nowrap;
         }
 
         .subtitle {
           margin: 0px;
           position: relative;
-
-          // Affichage des ... si intitulé trop long
-          text-overflow: ellipsis;
-          overflow: hidden;
-          white-space: nowrap;
+          display: flex;
+          justify-content: space-between;
+          padding-left: 10px;
+          padding-right: 10px;
 
           .price {
             font-weight: bold;
-            right: -30px;
-            position: absolute;
           }
         }
       }
 
       .recette-check {
-        padding-top: 35px;
+        padding-top: 34px;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
         background: #99e2d0;
@@ -137,7 +130,7 @@
         top: 0;
         right: 0;
         width: 0px;
-        height: 75px;
+        height: 47px;
       }
     }
   }
@@ -146,6 +139,7 @@
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    display: table;
+    display: table; // Affiche simulée d'une structure en tableau afin que l'élément puisse être
+    // centré en utilisant margin left et right auto
   }
 }

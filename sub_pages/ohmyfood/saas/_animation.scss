@@ -1,7 +1,7 @@
 @import "variables";
 
 /**
- * Animaition loader pleine page
+ * Animation loader pleine page
  */
 .loading-container {
   position: fixed;
@@ -82,7 +82,12 @@
  */
 @keyframes fadeInUp {
   from {
-    transform: translate3d(0, 40px, 0);
+    transform: translate3d(
+      0,
+      40px,
+      0
+    ); // change selon 3 axes dimensionnelles: 0 axe horizontal,
+    //  40 axe vertical et 0 axe profondeur
   }
 
   to {
@@ -93,9 +98,9 @@
 
 .fade-in-up {
   animation-duration: 1s;
-  animation-fill-mode: both;
+  animation-fill-mode: both; // l'extension des propriétés de l'animation dans les deux directions
   opacity: 0;
-  animation-name: fadeInUp;
+  animation-name: fadeInUp; //keyframe fadeInUP pour faire apparaître les cartes du menu en fondu
 }
 
 /* 
@@ -106,7 +111,9 @@
     .like__icon {
       &.like__icon--bg {
         opacity: 1;
-        animation: gradient 0.5s ease forwards;
+        animation: gradient 0.5s ease forwards; // animation du dégradé à 0.5sec
+        // ease: vitesse de l'animation augmente au milieu de celle-ci puis ralentit à la fin.
+        // les propriétés de l'animation sont conservés à la fin de celle ci
       }
     }
   }
@@ -125,16 +132,17 @@
         #fff,
         $primary-color,
         $secondary-color
-      );
-      background-size: 350% 100%;
-      -webkit-background-clip: text;
+      ); // dégradé du coeur
+      background-size: 350% 100%; // augmenter artificiellement la taille du background pour que le dégradé soit plus joli
+      -webkit-background-clip: text; // détermine la zone de rendu du texte chrome
+      background-clip: text; // détermine la zone de rendu du background sur le texte
       -moz-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-text-fill-color: transparent;
+      -webkit-text-fill-color: transparent; //rends la couleur du texte transparent
+      -moz-text-fill-color: transparent; //rends la couleur du texte transparent firefox
     }
   }
 }
-
+// animation du background pour le coeur
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -152,6 +160,7 @@
   // On applique un délais à partir du second enfant de chaque
   // section (Entrées, Plat, Desserts) et on ajoute 3ms de délais
   // à chaque enfant
+  // le premier n'a pas besoin de délai car on veut qu'il s'anime dès l'affichage de la page
   .toutes_les_entrees div:nth-child(2),
   .tous_les_plats div:nth-child(2),
   .tous_les_desserts div:nth-child(2) {
@@ -181,9 +190,11 @@
   .carte-item {
     &:hover {
       .recette-info {
-        width: calc(100% - 80px);
+        // Selecteur du nom du plat et sous titre
+        width: calc(100% - 80px); // Définit la largeur à 100% de l'espace -80px
       }
       .recette-check {
+        // Selecteur du check vert
         width: 70px;
 
         .fa-check-circle {
@@ -194,15 +205,24 @@
 
     .recette-info {
       transition: width ease 0.5s;
+
+      .subtitle,
+      .subtitle span:nth-child(1),
+      h3 {
+        // Affichage des ... si intitulé trop long
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
     }
 
     .recette-check {
-      transition: 0.5s ease;
+      transition: 0.5s ease; // ease: vitesse de l'animation augmente au milieu de celle-ci puis ralentit à la fin.
       animation-delay: 250ms;
 
       .fa-check-circle {
         transform: rotate(360deg); // Rotation de la coche
-        transition: 0.5s ease;
+        transition: 0.5s ease; // ease: vitesse de l'animation augmente au milieu de celle-ci puis ralentit à la fin.
       }
     }
   }
@@ -213,8 +233,9 @@
  */
 .btn {
   &:hover {
+    // La couleur s'éclaircie et l'ombre porté devient plus prononcée
     background: linear-gradient(rgb(240 116 218 / 80%), rgb(175 95 220 / 80%));
     box-shadow: 0px 4px 20px rgb(0 0 0 / 60%);
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out; // Rapide au début, ralenti à la fin
   }
 }
