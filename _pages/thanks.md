@@ -1,7 +1,7 @@
 ---
 title: Merci !
 subtitle: Votre message a été envoyé avec succès.
-description: Le blog d'une infirmière en reconvertion pour devenir développeuse web.
+description: Développeuse web fullstack JS passionée de Craft
 featured_image: /images/demo/demo-portrait.jpg
 ---
 
