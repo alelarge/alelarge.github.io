@@ -8,7 +8,7 @@ Le Test Driven Developement (TDD) ou Developpement Piloté par les Tests en fran
 
 ## Origine du TDD 
 
-A la fin des années 1990, Kent Beck, un informaticien américain, a inventé le concept d'Extreme Programming (XP) dont le Développement Piloté par les Tests est une brique importante. Dans son livre "[Test Driven Development : By Example](https://books.google.fr/books?id=CUlsAQAAQBAJ&printsec=frontcover&redir_esc=y#v=onepage&q&f=false)", il développe l'idée selon laquelle on ne doit pas seulement réfléchir à l'algorithme pour écrire son code mais que pour implémenter une fonctionnalité, il est également nécessaire se se questionner sur l'objectif : Définir le besoin, définir le comportement attendu, et est-ce que l'implémentation satisfait le besoin utilisateur.
+A la fin des années 1990, Kent Beck, un informaticien américain, a inventé le concept d'Extreme Programming (XP) dont le Développement Piloté par les Tests est une brique importante. Dans son livre "[Test Driven Development : By Example](https://books.google.fr/books?id=CUlsAQAAQBAJ&printsec=frontcover&redir_esc=y#v=onepage&q&f=false)", il développe l'idée selon laquelle on ne doit pas seulement réfléchir à l'algorithme pour écrire son code mais que pour implémenter une fonctionnalité, il est également nécessaire de se questionner sur l'objectif : Définir le besoin, définir le comportement attendu, et est-ce que l'implémentation satisfait le besoin utilisateur.
 
 ## Les principes
 
