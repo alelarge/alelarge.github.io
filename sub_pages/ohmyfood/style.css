@@ -549,6 +549,7 @@ footer i.icon-partenaire {
 .menu-restaurant .carte-item .recette-check .fa-check-circle {
   transform: rotate(360deg);
   transition: 0.5s ease;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
 }
 
 /**

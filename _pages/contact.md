@@ -1,7 +1,7 @@
 ---
 title: Contact
 subtitle: Restons en contact
-description: Développeuse web fullstack JS passionnée de Craft
+description: Consultante JS/Kotlin chez Shodo, passionnée de Craft
 featured_image: /images/demo/demo-portrait.jpg
 ---
 
