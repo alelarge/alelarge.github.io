@@ -2,7 +2,7 @@
 title: "Ohmyfood"
 subtitle: "HTML/CSS (SASS)"
 date: 2022-02-13 00:00:00
-featured_image: ""
+featured_image: "/images/projects/2022-02-13-ohmyfood-project/homyfood_illu.jpg"
 excerpt: "Mon retour d'expérience sur le développement de Ohmyfood, un site mobile first qui répertorie les menus de restaurants gastronomiques"
 ---
 
