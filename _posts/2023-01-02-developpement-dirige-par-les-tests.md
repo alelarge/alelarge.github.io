@@ -1,7 +1,7 @@
 ---
-title: 'Découvrez le Test Driven Development (TDD)'
+title: "Découvrez le Test Driven Development (TDD)"
 date: 2023-01-02 15:00:00
-except: Le Test Driven Development (TDD) ou Développement Piloté par les Tests en français est une méthode de développement qui vise à produire un code robuste et de qualité. Dans cet article, nous allons en étudier les principes et les illustrer par des exemples en JavaScript à l'aide de Jest, un framework de test.
+excerpt: Le Test Driven Development (TDD) ou Développement Piloté par les Tests en français est une méthode de développement qui vise à produire un code robuste et de qualité. Dans cet article, nous allons en étudier les principes et les illustrer par des exemples en JavaScript à l'aide de Jest, un framework de test.
 ---
  
 Le Test Driven Development (TDD) ou Développement Piloté par les Tests en français est une méthode de développement qui vise à produire un code robuste et de qualité.
@@ -30,13 +30,15 @@ Robert C. Martin formule ainsi les trois lois du TDD :
 3. Il faut écrire le minimum de code de production pour que le test unitaire actuellement en échec soit satisfait.
  
 ## Avantages du TDD
+
+Il est important de comprendre les règles métier, poser des questions sur les cas limites pour bien répondre aux fonctionnalités demandées, avant de se lancer dans le code.
  
 Avoir du code testé permet d'être plus confiant lors des mises en production, en exécutant les tests avant le déploiement, cela permet également de limiter la dette technique et de détecter d'éventuelles régressions/bugs.
  
-En résumé, le TDD permet d'écrire du code propre, durable, et maintenable.
+En résumé, le TDD permet d'écrire du code utile/maintenable/couvert.
 ## Inconvénients du TDD
  
-Pour écrire du code avec du TDD, on met plus de temps à le produire. Si on n'en écrit pas, on passe plus de temps à déboguer et à tenter de la maintenir car les structures fonctionnelles dépendent moins les unes des autres.
+La perte de temps investie à produire les tests et le code est du temps en moins en non régression par la suite. On passe plus de temps à déboguer et à tenter de la maintenir car les structures fonctionnelles dépendent moins les unes des autres.
 ## Les étapes
  
 Il y a trois étapes dans le TDD :
@@ -74,7 +76,7 @@ Il s'agit de la dernière étape. Elle permet de rendre le code propre pour une 
  
 Pour être efficace, il convient d'adopter le point de vue d'une personne découvrant le code et de se demander s'il comprendrait le besoin auquel il répond.
  
-Pour détecter les cas où le code retourne une valeur en dur quelque soit la valeur d'entrée, on peut utiliser la technique dite de "triangulation". Elle consiste à écrire au moins deux tests pour la même règle métier, avec des valeurs d'entrée différentes. Si le code retourne une valeur en dur, le nouveau test sera rouge et nous saurons qu'il faut rendre l'implémentation plus générique afin de satisfaire la règle de gestion. Puisque cette technique nécessite plusieurs itérations red/green/refactor. On ne peut pas l'implémenter dès la première.
+Pour détecter les cas où le code retourne une valeur en dur quelque soit la valeur d'entrée, on peut utiliser la technique dite de "triangulation". Elle consiste à écrire au moins deux tests pour la même règle métier, avec des valeurs d'entrée différentes. Si le code retourne une valeur en dur, le nouveau test sera rouge et nous saurons qu'il faut rendre l'implémentation plus générique afin de satisfaire la règle de gestion. Puisque cette technique nécessite plusieurs itérations red/green/refactor. On ne peut pas l'implémenter dès la première. Beaucoup de librairie/framework de tests permettent d’exécuter un même avec une liste de valeurs : par exemple it.each dans jest 
  
 ## Ecrire des tests en JavaScript avec Jest
  
@@ -118,3 +120,9 @@ PASS  ./countLetters.test.js
 Vous venez d'écrire votre premier test avec Jest avec succès !
  
 Ce test utilise `expect` et `toBe` pour tester que deux valeurs sont exactement identiques. Vous trouverez dans la documentation d'autres comparateurs qui peuvent être utiles.
+
+## Réferences de l'article
+
+[Software craft :TDD, clean code et autres pratiques essentielles de Cyrille Martraire, Arnaud Thiéfaine, Dorra Bartaguiz, Fabien Hiegel, Houssam Fakih](https://www.amazon.fr/Software-craft-autres-pratiques-essentielles/dp/2100825208)
+
+[Coder proprement de Robert C. MARTIN][https://www.amazon.fr/Coder-proprement-Robert-C-Martin/dp/232600227X/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=MIGMV3O93IBQ&keywords=coder+proprement&qid=1674730217&s=books&sprefix=coder+proprement%2Cstripbooks%2C62&sr=1-1]
